@@ -6,58 +6,31 @@ public class project {
         System.out.println("Welcome to DOGS BREED GYAN");
         System.out.println("Get all information about different types of dog breed");
 
-        System.out.println("=== Dog Breed Information ===");
+        
         System.out.println("1. Labrador Retriever");
         System.out.println("2. German Shepherd");
         System.out.println("3. Golden Retriever");
         System.out.println("4. Bulldog");
-        System.out.println("5. Beagle");
-        System.out.print("Choose a breed (1-5): ");
-
-        int choice = sc.nextInt();
-        System.out.println();
-
-        switch (choice) {
+        System.out.println("5. Poodle");
+        System.out.println("Enter button number according to breed");
+        int button = sc.nextInt();
+        switch (button){
             case 1:
-                System.out.println("Labrador Retriever:");
-                System.out.println("- Friendly, outgoing, high-spirited");
-                System.out.println("- Great family dogs and very intelligent");
-                System.out.println("- Life span: 10–12 years");
-                System.out.println("- Height: 21–24 inches");
-                break;
-            case 2:
-                System.out.println("German Shepherd:");
-                System.out.println("- Intelligent, courageous, confident");
-                System.out.println("- Excellent working and guard dogs");
-                System.out.println("- Life span: 9–13 years");
-                System.out.println("- Height: 22–26 inches");
-                break;
-            case 3:
-                System.out.println("Golden Retriever:");
-                System.out.println("- Gentle, friendly, trustworthy");
-                System.out.println("- Great with kids, loves playing fetch");
-                System.out.println("- Life span: 10–12 years");
-                System.out.println("- Height: 21–24 inches");
-                break;
-            case 4:
-                System.out.println("Bulldog:");
-                System.out.println("- Calm, courageous, loving");
-                System.out.println("- Known for their wrinkled face and stocky build");
-                System.out.println("- Life span: 8–10 years");
-                System.out.println("- Height: 14–15 inches");
-                break;
-            case 5:
-                System.out.println("Beagle:");
-                System.out.println("- Curious, friendly, merry");
-                System.out.println("- Great sense of smell, used as hunting dogs");
-                System.out.println("- Life span: 12–15 years");
-                System.out.println("- Height: 13–15 inches");
-                break;
-            default:
-                System.out.println("Invalid choice. Please run again.");
-        }
+            System.out.println("******Labrador Retriever******");
+            System.out.println("FOOD TO GIVE:- Choose premium dry kibble with real meat (chicken, lamb, fish) as the first ingredient.\n" + //
+                                "\n" + //
+                                "Look for 26–30% protein and 12–18% fat.\n" + //
+                                "\n" + //
+                                "Avoid fillers like corn, soy, artificial colors, and by-products.");
 
-        sc.close();
+            System.out.println("\nAVERAGE AGE :-The average lifespan of a Labrador Retriever is 10 to 12 years.");
+            
+            System.out.println("\nGROOMING :- Brush a Labrador 2–3 times a week (daily during shedding) and bathe once every 1–2 months using mild dog shampoo. Clean ears weekly, trim nails monthly, and brush teeth regularly to keep them healthy.");
+             String website = "https://www.akc.org/dog-breeds/labrador-retriever/";
+
+        // Print the website link
+        System.out.println("\nFor more details about Labrador Retriever, visit: " + website);
+        }
         
     }
 
